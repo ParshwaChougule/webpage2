@@ -126,3 +126,40 @@ footer .copy{
 }
 
 /* footer section end */
+/* media Queries start */
+@media screen and (max-width:991px){
+    .tophead{
+        padding: 10px;
+        height: auto;
+    }
+    .tophead ul li{
+        display: block;
+    }
+    header,nav{
+        text-align: center;
+        padding: 0px 10px;
+    }
+    section {
+        padding: 0px 0px 0xp 10px;
+    }
+}
+@media screen and (max-width:767px){
+    section main,section aside{
+        float: none;
+        width: 100%;
+    }
+    footer .link, footer .follow, footer .copy{
+        float: none;
+        width: 100%;
+        text-align: center
+    }
+}
+@media screen and (max-width:575px){
+    header{
+        line-height: normal;
+    }
+    header h1, header h3{
+        display: block;
+    }
+}
+/* media Queries end */
